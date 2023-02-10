@@ -1,0 +1,5 @@
+package br.senai.suico.RestauranteX.model.repository;
+
+public class ClienteRepository {
+
+}
