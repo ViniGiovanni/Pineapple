@@ -1,6 +1,6 @@
 import logo from '../../assets/logo.png';
 import {Link} from 'react-router-dom';
-import { useEffect, useState } from 'react';
+import {  useState } from 'react';
 
 import {FiLock, FiMail } from "react-icons/fi";
 import api from "../../services/api";
@@ -31,12 +31,21 @@ export default function Cadastro(){
                else alert("Invalid User and Password!")
             })
             .catch((err) => {
-              console.error("ops! ocorreu um erro" + err);
+   
+                var erro =err.toString();;
+              
+                if (erro.includes('302') ||  erro.includes('404'))
+                  alert("Invalid User and Password!" )
+      
+               else  alert("ops! ocorreu um erro:\n" + err)
+      
+              
+              
             });
         
         }
         else{
-            console.log('email erro:');
+           alert('Email ou senha inválido')
         }
     }
     return(

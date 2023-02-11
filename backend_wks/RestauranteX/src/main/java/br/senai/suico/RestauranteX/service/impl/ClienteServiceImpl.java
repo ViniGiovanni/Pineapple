@@ -28,9 +28,16 @@ public class ClienteServiceImpl implements ClienteService {
 
 	@Override
 	@Transactional
-	public Cliente salvar(Cliente Cliente) {
-		validar(Cliente);
-		return repository.save(Cliente);
+	public Cliente salvar(Cliente cliente) {
+		validar(cliente);
+		
+		var cli = buscarPorEmail(cliente.getEmail());
+		if (cli.isEmpty()) {
+		   return repository.save(cliente);
+		}
+		else {
+			throw new ResponseStatusException(HttpStatus.BAD_REQUEST);
+		}
 	}
 
 	@Override
@@ -79,6 +86,14 @@ public class ClienteServiceImpl implements ClienteService {
 		if (Cliente.getNome() == null || Cliente.getNome().trim().equals("")) {
 			throw new RegraNegocioException("Informe um nome válido");
 		}
+		
+		if (Cliente.getEmail() == null || Cliente.getEmail().trim().equals("")) {
+			throw new RegraNegocioException("Informe um email válido");
+		}
+		
+		if (Cliente.getSenha() == null || Cliente.getSenha().trim().equals("")) {
+			throw new RegraNegocioException("Informe um email válido");
+		}
 	}
 
 
@@ -86,17 +101,25 @@ public class ClienteServiceImpl implements ClienteService {
 	public Optional<ClienteDto> autenticar(Cliente cliente) {
 		Optional<Cliente> result = repository.findByEmail(cliente.getEmail());
 		
-		if (result.isPresent() && result.get().getSenha().equals(cliente.getSenha()))
-		{
+		if (result.isPresent()) 		{
 		
-			ClienteDto cli = new ClienteDto();
-			cli.setNome(result.get().getNome());
-			cli.setEmail(result.get().getEmail());
-			cli.setToken("token123");
-			return Optional.of(cli);
+			if (result.get().getSenha().equals(cliente.getSenha() )) {
+
+				ClienteDto cli = new ClienteDto();
+				cli.setNome(result.get().getNome());
+				cli.setEmail(result.get().getEmail());
+				cli.setToken("token123");
+				return Optional.of(cli);
+			}
+			else {
+				throw new ResponseStatusException(HttpStatus.FOUND);
+						
+			}
+		}
+		else {
+			throw new ResponseStatusException(HttpStatus.NOT_FOUND);
 		}
 		
-		return  null;
 	}
 
 	@Override

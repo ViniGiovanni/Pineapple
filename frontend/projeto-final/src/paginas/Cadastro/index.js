@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 import { useState } from 'react';
 import { FiUser, FiLock, FiUnlock, FiMail } from "react-icons/fi";
+import api  from '../../services/api'
 
 export default function Cadastro(){
     const [username, setUsername] = useState('');
@@ -11,13 +12,40 @@ export default function Cadastro(){
     const [senha, setSenha] = useState('');
     const [confirmarSenha, setConfirmarSenha] = useState('');
 
-    function Cadastrar(){
+    function Cadastrar(e){
+        e.preventDefault();
+
         if(senha !== confirmarSenha){
-            alert('Digite senhas iguais')
+            alert('Digite senhas iguais');   
         }
-        if((username !=='' && email !== '' && senha !=='' && confirmarSenha !== '') && senha === confirmarSenha){
-            //função de cadastrar
-            alert(senha)
+        else if((username !=='' && email !== '' && senha !=='' && confirmarSenha !== '') && senha === confirmarSenha){
+            var usuario={
+                nome:username,
+                email:email,
+                senha:senha
+            }
+
+          
+            api
+            .post("/api/Clientes",usuario)
+            .then((response) =>
+            {
+                if (response.data != null){
+                   alert("Usuário cadastrado com sucesso")
+                }                
+                   else alert("Error on create new user, contact the admin")
+            })
+            .catch((err) => {
+                var erro =err.toString();;
+              
+                if (erro.includes('400') )
+                  alert(`Email ${email} já cadastrado!`)     
+               else  alert("ops! ocorreu um erro:\n" + err)
+      
+              
+            });
+        
+            
         }
     }
     return(
