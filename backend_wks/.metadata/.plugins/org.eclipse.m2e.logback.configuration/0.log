@@ -103,3 +103,150 @@
 2023-02-09 21:00:59,228 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
 2023-02-09 21:00:59,236 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
 2023-02-09 21:00:59,238 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-09 21:25:58,169 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-09 21:25:58,179 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-09 21:25:58,180 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-09 21:26:50,070 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-09 21:26:50,080 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-09 21:26:50,083 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-09 21:31:34,947 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-09 21:31:34,954 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-09 21:31:34,955 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-09 21:33:18,025 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-09 21:33:18,032 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-09 21:33:18,034 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-09 21:34:04,486 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-09 21:34:04,493 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-09 21:34:04,494 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-09 21:34:34,172 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-09 21:34:34,177 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-09 21:34:34,179 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-09 21:35:42,696 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-09 21:35:42,700 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-09 21:35:42,701 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-09 21:36:03,061 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-09 21:36:03,070 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-09 21:36:03,074 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-09 21:36:20,477 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-09 21:36:20,494 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-09 21:36:20,495 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-09 21:37:54,558 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-09 21:37:54,589 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-09 21:37:54,591 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-09 21:40:34,379 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-09 21:40:34,384 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-09 21:40:34,385 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-09 21:41:07,906 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-09 21:41:07,967 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-09 21:41:07,969 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-09 21:42:58,838 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2023-02-09 21:43:01,565 [Worker-42: Launching RestauranteX] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX
+2023-02-09 21:43:01,566 [Worker-42: Launching RestauranteX] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B 
+2023-02-09 21:43:01,707 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-09 21:43:01,772 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-09 21:43:01,774 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-09 21:51:56,979 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-09 21:51:56,993 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-09 21:51:56,995 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-09 21:52:50,300 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-09 21:52:50,306 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-09 21:52:50,308 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 17:39:00,160 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-10 17:39:09,748 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 17:39:09,779 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 17:39:09,783 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 17:43:42,251 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 17:43:42,269 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 17:43:42,278 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 17:46:15,160 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 17:46:15,167 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 17:46:15,170 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 17:47:45,822 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 17:47:45,829 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 17:47:45,832 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 17:55:23,583 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 17:55:23,591 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 17:55:23,594 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 17:56:25,429 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 17:56:25,436 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 17:56:25,438 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 17:59:40,837 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 17:59:40,841 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 17:59:40,843 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 17:59:59,429 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 17:59:59,471 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 17:59:59,477 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 18:01:23,876 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 18:01:23,882 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 18:01:23,884 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 18:32:04,969 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-10 18:40:54,087 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 18:40:54,103 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 18:40:54,106 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 18:42:18,784 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 18:42:18,791 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 18:42:18,794 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 18:44:05,997 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 18:44:06,004 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 18:44:06,006 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 18:44:27,296 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 18:44:27,304 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 18:44:27,307 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 18:45:02,616 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 18:45:02,623 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 18:45:02,624 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 19:29:08,678 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 19:29:08,684 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 19:29:08,686 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 19:49:36,878 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 19:49:36,883 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 19:49:36,885 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 19:50:33,343 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 19:50:33,351 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 19:50:33,354 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 19:54:01,864 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 19:54:01,872 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 19:54:01,874 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 19:59:16,776 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 19:59:16,782 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 19:59:16,784 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 20:00:37,697 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 20:00:37,704 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 20:00:37,706 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 20:42:32,987 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 20:42:32,997 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 20:42:32,999 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 20:42:56,956 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 20:42:56,961 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 20:42:56,963 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 20:43:51,539 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 20:43:51,544 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 20:43:51,546 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 20:44:18,064 [Worker-48: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 20:44:18,072 [Worker-48: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 20:44:18,073 [Worker-48: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 20:46:29,220 [Worker-45: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 20:46:29,229 [Worker-45: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 20:46:29,230 [Worker-45: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 20:49:43,907 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 20:49:43,913 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 20:49:43,915 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 20:51:12,751 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 20:51:12,756 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 20:51:12,758 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 20:51:57,507 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 20:51:57,514 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 20:51:57,517 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 20:54:08,760 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 20:54:08,765 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 20:54:08,766 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 20:55:18,274 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 20:55:18,279 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 20:55:18,280 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 20:57:08,937 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 20:57:08,954 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 20:57:08,955 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 20:58:34,933 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-10 20:58:34,939 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-10 20:58:34,940 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-10 20:58:58,270 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
