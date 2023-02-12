@@ -1,6 +1,6 @@
 import logo from '../../assets/logo.png';
 import './cadastro.css';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 
 import { useState } from 'react';
 import { FiUser, FiLock, FiUnlock, FiMail } from "react-icons/fi";
@@ -11,6 +11,7 @@ export default function Cadastro(){
     const [email, setEmail] = useState('');
     const [senha, setSenha] = useState('');
     const [confirmarSenha, setConfirmarSenha] = useState('');
+    const history = useHistory();
 
     function Cadastrar(e){
         e.preventDefault();
@@ -31,7 +32,8 @@ export default function Cadastro(){
             .then((response) =>
             {
                 if (response.data != null){
-                   alert("Usuário cadastrado com sucesso")
+                   alert("Usuário cadastrado com sucesso");
+                   history.push('/')
                 }                
                    else alert("Error on create new user, contact the admin")
             })

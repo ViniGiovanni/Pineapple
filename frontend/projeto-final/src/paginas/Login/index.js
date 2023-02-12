@@ -4,12 +4,14 @@ import {  useState } from 'react';
 
 import {FiLock, FiMail } from "react-icons/fi";
 import api from "../../services/api";
+import { useHistory } from 'react-router-dom';
 
 
 export default function Cadastro(){
     const [email, setEmail] = useState('');
     const [senha, setSenha] = useState('');
     const [usuario, setUsuario] = useState('');
+    const history = useHistory();
 
     function Logar(e){
         e.preventDefault();
@@ -27,6 +29,7 @@ export default function Cadastro(){
                    console.log(response.data)
                     setUsuario(response.data.nome)
                     alert(usuario+ ' token:'+ response.data.token);
+                    history.push('/home'); 
                 }
                else alert("Invalid User and Password!")
             })
