@@ -78,8 +78,6 @@ public class ClienteServiceImpl implements ClienteService {
 		return repository.findAll();
 	}
 
-
-
 	@Override
 	@Transactional(readOnly = true)
 	public void validar(Cliente Cliente) {
@@ -131,7 +129,4 @@ public class ClienteServiceImpl implements ClienteService {
 	public Optional<Cliente> buscarPorEmail(String email) {
 		return repository.findByEmail(email);
 	}
-	
-
-
 }

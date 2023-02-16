@@ -1,9 +1,13 @@
-import React from "react";
+import React,{useState} from "react";
 import Rotas from "./rotas";
+import Context from "./context";
 
 function App() {
+  const [user, setUser] = useState('');
   return (
-    <Rotas/>
+    <Context.Provider value={[user,setUser]}>
+      <Rotas/>
+      </Context.Provider>
   );
 }
 

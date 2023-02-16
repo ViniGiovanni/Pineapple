@@ -1,17 +1,18 @@
 import logo from '../../assets/logo.png';
 import {Link} from 'react-router-dom';
-import {  useState } from 'react';
+import {  useContext, useState } from 'react';
 
 import {FiLock, FiMail } from "react-icons/fi";
 import api from "../../services/api";
 import { useHistory } from 'react-router-dom';
-
+import Context from "../../context";
 
 export default function Cadastro(){
     const [email, setEmail] = useState('');
     const [senha, setSenha] = useState('');
     const [usuario, setUsuario] = useState('');
     const history = useHistory();
+    const [user, setUser] = useContext(Context);
 
     function Logar(e){
         e.preventDefault();
@@ -29,6 +30,7 @@ export default function Cadastro(){
                    console.log(response.data)
                     setUsuario(response.data.nome)
                     alert(usuario+ ' token:'+ response.data.token);
+                    setUser(response.data.nome);
                     history.push('/home'); 
                 }
                else alert("Invalid User and Password!")
