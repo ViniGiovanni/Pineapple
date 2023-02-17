@@ -7,12 +7,15 @@ import '../Dropdown/button.css'
 import { useContext } from 'react';
 import Context from '../../context';
 import { useHistory} from 'react-router-dom'
+import { setAuthToken } from '../../setAuthToken';
 
 function ButtonUser(prop) {
   const [user,setUser] = useContext(Context)
   const history = useHistory();
   
   const logout = () =>{
+    localStorage.removeItem("token");             
+    setAuthToken();
     setUser('');
     history.push("/")
      

@@ -4,6 +4,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import Cadastro from "./paginas/Cadastro";
 import Login from "./paginas/Login";
 import Home from "./paginas/Home";
+import RouteGuard from "./RouteGuard";
 
 
 export default function Rotas(){
@@ -11,8 +12,11 @@ export default function Rotas(){
      
         <BrowserRouter>
             <Route component={Login} path="/" exact/>
+            <Route component={Login} path="/login" exact/>
             <Route component={Cadastro} path="/cadastro"/>
-            <Route component={Home} path="/home"/>
+            <RouteGuard component={Home} path="/home"/>
+            <Route component={Login} path="*" exact/>
+            
         </BrowserRouter>
        
     )

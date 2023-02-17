@@ -6,15 +6,18 @@ import {FiLock, FiMail } from "react-icons/fi";
 import api from "../../services/api";
 import { useHistory } from 'react-router-dom';
 import Context from "../../context";
+import { setAuthToken } from '../../setAuthToken';
 
-export default function Cadastro(){
+export default function Login(){
     const [email, setEmail] = useState('');
     const [senha, setSenha] = useState('');
-    const [usuario, setUsuario] = useState('');
     const history = useHistory();
-    const [user, setUser] = useContext(Context);
+    const [setUser] = useContext(Context);
 
-    function Logar(e){
+    function Logar(e){   
+        localStorage.removeItem("token");             
+        setAuthToken();
+
         e.preventDefault();
        if(email !== '' && senha !==''){
           
@@ -26,14 +29,25 @@ export default function Cadastro(){
             .post("/api/Clientes/autenticar",userLogin)
             .then((response) =>
             {
-                if (response.data.token != null){
+                if (response.data.token != null)
+                {
                    console.log(response.data)
-                    setUsuario(response.data.nome)
-                    alert(usuario+ ' token:'+ response.data.token);
+                   
+                    const token  =  response.data.token;
+ 
+                    //set JWT token to local
+                    localStorage.setItem("token", token);
+                    
+                    setAuthToken(token);
+
                     setUser(response.data.nome);
                     history.push('/home'); 
                 }
-               else alert("Invalid User and Password!")
+                else 
+                {
+                    alert("Invalid User and Password!")
+                } 
+               
             })
             .catch((err) => {
    

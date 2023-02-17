@@ -1,10 +1,10 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext } from "react";
 import Context from "../../context";
 
 import Header from "../../componentes/Header";
 
 export default function Home() {
-  const [user, setUser] = useContext(Context);
+  const [user] = useContext(Context);
 
   
   return (
