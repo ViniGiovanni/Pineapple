@@ -1,5 +1,0 @@
-package br.senai.suico.RestauranteX.model.entity;
-
-public class Cliente {
-
-}

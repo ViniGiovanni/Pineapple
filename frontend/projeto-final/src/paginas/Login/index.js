@@ -66,12 +66,8 @@ export default function Cadastro(){
 
                     <div className="input-icons">
                             
-                        <div className='input-login'>
                     <span><FiLock size={18} color='rgb(194, 194, 194)'/></span>
                     <input type="password" placeholder='Senha' value={senha} onChange={(e) => setSenha(e.target.value)}/>
-                        
-                        </div>
-                
                     </div>
                     <button type="submit" className='form-btn' >Login</button>
                 </form>

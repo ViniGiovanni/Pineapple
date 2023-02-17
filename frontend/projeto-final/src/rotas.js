@@ -13,7 +13,6 @@ export default function Rotas(){
             <Route component={Login} path="/" exact/>
             <Route component={Cadastro} path="/cadastro"/>
             <Route component={Home} path="/home"/>
-
         </BrowserRouter>
        
     )

@@ -39,15 +39,10 @@ body{
     top: 0;
 }
 form{
+    margin-top: 120px;
     position: absolute;
-    margin-top: 100px;
-}
-form input{
     background-color: transparent;
-    border: 1px solid rgb(225, 211, 14);
-    box-shadow: 0 0 .2em .1em rgb(225, 211, 14);
     margin-bottom: 15px;
-    height: 20px;
     width: 310px;
     border:0;
     border-radius: 7px;
@@ -79,16 +74,34 @@ a{
     box-shadow: 0 0 .3em rgb(225, 211, 14);
     color: black;
     font-size: 1em;
-    width: 320px;
+    width: 270px;
     cursor: pointer;
     margin-top: 20px;
 }
 
-.input-icons span {
-    position: absolute;
-    margin:5px;
+.input-icons{
+    width: 270px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border: 1px solid rgb(225, 211, 14);
+    border-radius: 8px;
+    margin: 10px 0;
 }
-  
-.input-icons {
-    width: 100%;
+.input-icons input{
+    height: 25px;
+    margin: 0 5px;
+    background-color: transparent;
+    border: 0;
+    width: 70%;
+    padding: 5px 0 ;
+    color: white;
+    font-size: 1.1em;
 }
+input:focus{
+    box-shadow: 0;
+    border: 0;
+}
+
