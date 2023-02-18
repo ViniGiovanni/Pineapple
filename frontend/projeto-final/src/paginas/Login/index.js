@@ -5,19 +5,18 @@ import {  useContext, useState } from 'react';
 import {FiLock, FiMail } from "react-icons/fi";
 import api from "../../services/api";
 import { useHistory } from 'react-router-dom';
-import Context from "../../context";
-import { setAuthToken } from '../../setAuthToken';
+import UserContext from "../../contexts/UserContext";
+import { setAuthToken } from '../../utils/setAuthToken';
 
 export default function Login(){
     const [email, setEmail] = useState('');
     const [senha, setSenha] = useState('');
     const history = useHistory();
-    const [user,setUser] = useContext(Context);
+    const [user,setUser] = useContext(UserContext);
 
     function Logar(e){   
         localStorage.removeItem("token");             
         setAuthToken();
-
         e.preventDefault();
        if(email !== '' && senha !==''){
           

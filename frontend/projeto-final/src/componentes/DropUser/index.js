@@ -1,16 +1,15 @@
 import Dropdown from 'react-bootstrap/Dropdown';
-import DropdownButton from 'react-bootstrap/DropdownButton';
 import { Link } from 'react-router-dom';
 import {FiLogOut} from "react-icons/fi";
 
 import '../Dropdown/button.css'
 import { useContext } from 'react';
-import Context from '../../context';
+import UserContext from '../../contexts/UserContext';
 import { useHistory} from 'react-router-dom'
-import { setAuthToken } from '../../setAuthToken';
+import { setAuthToken } from '../../utils/setAuthToken';
 
 function ButtonUser(prop) {
-  const [user,setUser] = useContext(Context)
+  const [user,setUser] = useContext(UserContext)
   const history = useHistory();
   
   const logout = () =>{

@@ -1,8 +1,8 @@
 import React,{useState} from "react";
-import Rotas from "./rotas";
-import Context from "./context";
+import Rotas from "./componentes/Rotas";
+import UserContext from "./contexts/UserContext";
 import './App.css'
-import { setAuthToken } from "./setAuthToken";
+import { setAuthToken } from "./utils/setAuthToken";
 
 function App() {
   const [user, setUser] = useState('');
@@ -12,9 +12,9 @@ function App() {
   }
 
   return (
-    <Context.Provider value={[user,setUser]}>
+    <UserContext.Provider value={[user,setUser]}>
       <Rotas/>
-      </Context.Provider>
+      </UserContext.Provider>
   );
 }
 
