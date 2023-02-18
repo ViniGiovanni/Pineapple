@@ -19,8 +19,6 @@ public class DBService {
 		Cliente c1= new Cliente(null,"Regina Costa","regina@gmail.com" ,"regina123");
 		Cliente c2= new Cliente(null,"Luan Silva","luan@gmail.com","luan123");
 		Cliente c3= new Cliente(null,"Administrador","admin@gmail.com","admin123");
-			
-		
 		
 		clienteRepository.saveAll(Arrays.asList(c1,c2,c3));
 	}

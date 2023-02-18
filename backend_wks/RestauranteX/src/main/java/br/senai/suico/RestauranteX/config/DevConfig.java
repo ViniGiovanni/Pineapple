@@ -9,8 +9,6 @@ import org.springframework.context.annotation.Profile;
 
 import br.senai.suico.RestauranteX.service.DBService;
 
-
-
 @Configuration
 @Profile("dev")
 public class DevConfig {
