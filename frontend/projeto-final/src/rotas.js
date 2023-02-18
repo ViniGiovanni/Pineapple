@@ -15,8 +15,7 @@ export default function Rotas(){
             <Route component={Login} path="/login" exact/>
             <Route component={Cadastro} path="/cadastro"/>
             <RouteGuard component={Home} path="/home"/>
-            <Route component={Login} path="*" exact/>
-            
+           
         </BrowserRouter>
        
     )

@@ -12,7 +12,7 @@ export default function Login(){
     const [email, setEmail] = useState('');
     const [senha, setSenha] = useState('');
     const history = useHistory();
-    const [setUser] = useContext(Context);
+    const [user,setUser] = useContext(Context);
 
     function Logar(e){   
         localStorage.removeItem("token");             
@@ -37,6 +37,7 @@ export default function Login(){
  
                     //set JWT token to local
                     localStorage.setItem("token", token);
+                    localStorage.setItem("user", response.data.nome);
                     
                     setAuthToken(token);
 
