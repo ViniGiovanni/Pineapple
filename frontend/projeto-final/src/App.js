@@ -7,6 +7,7 @@ import { setAuthToken } from "./utils/setAuthToken";
 function App() {
   const [user, setUser] = useState('');
   const token = localStorage.getItem("token");
+  
   if (token) {
      setAuthToken(token);
   }

@@ -8,8 +8,11 @@ import React, { useContext } from "react";
 import {FiUser} from "react-icons/fi";
 
 export default function Header(){
-    const [user] = useContext(UserContext);
+    const [user,setUser] = useContext(UserContext);
     
+    var usuario =  JSON.parse(localStorage.getItem("usuario"));
+  
+    setUser(usuario.nome);
     return(
         <header>
             <div className='header-user'>

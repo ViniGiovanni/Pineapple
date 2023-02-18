@@ -7,6 +7,10 @@ import api from "../../services/api";
 import { useHistory } from 'react-router-dom';
 import UserContext from "../../contexts/UserContext";
 import { setAuthToken } from '../../utils/setAuthToken';
+import { limparCaches } from '../../utils/limparCaches';
+import Usuario from '../../models/usuario';
+import UserLogin from '../../models/userLogin';
+
 
 export default function Login(){
     const [email, setEmail] = useState('');
@@ -15,41 +19,45 @@ export default function Login(){
     const [user,setUser] = useContext(UserContext);
 
     function Logar(e){   
-        localStorage.removeItem("token");             
-        setAuthToken();
         e.preventDefault();
+
+        setAuthToken();
+     
        if(email !== '' && senha !==''){
           
-            var userLogin={
-                email:email,
-                senha:senha
-            }
+            var userLogin= new UserLogin(email,senha)
+
             api
             .post("/api/Clientes/autenticar",userLogin)
             .then((response) =>
             {
                 if (response.data.token != null)
                 {
-                   console.log(response.data)
+                    console.log(response.data)
                    
                     const token  =  response.data.token;
- 
-                    //set JWT token to local
-                    localStorage.setItem("token", token);
                     
-                    setAuthToken(token);
+                     var usuario = new Usuario(response.data.id,response.data.nome,response.data.token,response.data.email)
+           
+                     setUser(usuario.nome );
+                      
+                    //set JWT token to local
+                    localStorage.setItem("usuario",JSON.stringify( usuario));
+                    // set token no Head do api                  
+                    setAuthToken(usuario.token);
 
-                    setUser(response.data.nome);
+                    //alert('user:'+user)
                     history.push('/home'); 
                 }
                 else 
                 {
+                    limparCaches();
                     alert("Invalid User and Password!")
                 } 
                
             })
             .catch((err) => {
-   
+                limparCaches();
                 var erro =err.toString();;
               
                 if (erro.includes('302') ||  erro.includes('404'))
@@ -63,7 +71,8 @@ export default function Login(){
         
         }
         else{
-           alert('Email ou senha inválido')
+            limparCaches();
+           alert('Informe o email e a senha!')
         }
     }
     return(

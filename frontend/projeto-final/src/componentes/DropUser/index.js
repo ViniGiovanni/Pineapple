@@ -7,13 +7,14 @@ import { useContext } from 'react';
 import UserContext from '../../contexts/UserContext';
 import { useHistory} from 'react-router-dom'
 import { setAuthToken } from '../../utils/setAuthToken';
+import { limparCaches } from '../../utils/limparCaches';
 
 function ButtonUser(prop) {
   const [user,setUser] = useContext(UserContext)
   const history = useHistory();
   
   const logout = () =>{
-    localStorage.removeItem("token");             
+    limparCaches();             
     setAuthToken();
     setUser('');
     history.push("/")
