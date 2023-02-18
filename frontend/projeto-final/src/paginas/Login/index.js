@@ -37,7 +37,6 @@ export default function Login(){
  
                     //set JWT token to local
                     localStorage.setItem("token", token);
-                    localStorage.setItem("user", response.data.nome);
                     
                     setAuthToken(token);
 

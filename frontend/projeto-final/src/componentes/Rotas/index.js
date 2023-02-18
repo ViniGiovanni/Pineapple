@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 
-import Cadastro from "./paginas/Cadastro";
-import Login from "./paginas/Login";
-import Home from "./paginas/Home";
-import RouteGuard from "./RouteGuard";
+import Cadastro from "../../paginas/Cadastro";
+import Login from "../../paginas/Login";
+import Home from "../../paginas/Home";
+import RouteGuard from "../Rotas";
 
 
 export default function Rotas(){
@@ -14,7 +14,7 @@ export default function Rotas(){
             <Route component={Login} path="/" exact/>
             <Route component={Login} path="/login" exact/>
             <Route component={Cadastro} path="/cadastro"/>
-            <RouteGuard component={Home} path="/home"/>         
+            <RouteGuard component={Home} path="/home"/>          
         </BrowserRouter>
        
     )
