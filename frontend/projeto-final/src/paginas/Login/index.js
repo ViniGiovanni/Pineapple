@@ -10,6 +10,7 @@ import { setAuthToken } from '../../utils/setAuthToken';
 import { limparCaches } from '../../utils/limparCaches';
 import Usuario from '../../models/usuario';
 import UserLogin from '../../models/userLogin';
+import {Mensagens} from '../../enums/mensagens';
 
 
 export default function Login(){
@@ -35,8 +36,6 @@ export default function Login(){
                 {
                     console.log(response.data)
                    
-                    const token  =  response.data.token;
-                    
                      var usuario = new Usuario(response.data.id,response.data.nome,response.data.token,response.data.email)
            
                      setUser(usuario.nome );
@@ -52,7 +51,7 @@ export default function Login(){
                 else 
                 {
                     limparCaches();
-                    alert("Invalid User and Password!")
+                    alert(Mensagens.UsuarioESenhaInvalida)
                 } 
                
             })
@@ -61,18 +60,16 @@ export default function Login(){
                 var erro =err.toString();;
               
                 if (erro.includes('302') ||  erro.includes('404'))
-                  alert("Invalid User and Password!" )
+                   alert(Mensagens.UsuarioESenhaInvalida )   
+                else  
+                   alert(Mensagens.ErroGenerico + err)
       
-               else  alert("ops! ocorreu um erro:\n" + err)
-      
-              
-              
             });
         
         }
         else{
             limparCaches();
-           alert('Informe o email e a senha!')
+           alert(Mensagens.EmailESenhaObrigatorio)
         }
     }
     return(
