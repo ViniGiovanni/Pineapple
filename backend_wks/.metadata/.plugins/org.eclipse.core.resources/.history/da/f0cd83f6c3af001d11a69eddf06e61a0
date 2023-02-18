@@ -1,0 +1,13 @@
+package br.senai.suico.RestauranteX;
+
+import org.springframework.context.annotation.Configuration;
+
+import springfox.documentation.spring.web.plugins.Docket;
+
+@Configuration
+public class SwaggerConfiguration {
+
+	public Docket docket() {
+		
+	}
+}

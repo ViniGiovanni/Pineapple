@@ -1,5 +1,0 @@
-package br.senai.suico.RestauranteX.model.dto;
-
-public class ClienteDto {
-
-}

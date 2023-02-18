@@ -1,0 +1,5 @@
+package br.senai.suico.RestauranteX.config;
+
+public class TestConfig {
+
+}

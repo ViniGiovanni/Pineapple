@@ -1,5 +1,0 @@
-package br.senai.suico.RestauranteX.api.controller;
-
-public class ClienteController {
-
-}

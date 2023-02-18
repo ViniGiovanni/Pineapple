@@ -1,5 +1,0 @@
-package br.senai.suico.RestauranteX.exception;
-
-public class RegraNegocioException {
-
-}
