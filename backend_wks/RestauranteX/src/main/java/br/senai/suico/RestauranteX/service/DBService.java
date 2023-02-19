@@ -20,6 +20,8 @@ public class DBService {
 		Cliente c2= new Cliente(null,"Luan Silva","luan@gmail.com","luan123");
 		Cliente c3= new Cliente(null,"Administrador","admin@gmail.com","admin123");
 		
-		clienteRepository.saveAll(Arrays.asList(c1,c2,c3));
+		var c4 = Cliente.builder().nome("Tarrou").email("tarrou@gmail.com").senha("123").build();
+		
+		clienteRepository.saveAll(Arrays.asList(c1,c2,c3,c4));
 	}
 }

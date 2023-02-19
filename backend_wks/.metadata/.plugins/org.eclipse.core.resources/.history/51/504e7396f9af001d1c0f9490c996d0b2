@@ -1,0 +1,15 @@
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console
+
+// Configuração de Conexão
+spring.datasource.url=jdbc:h2:mem:~/test
+spring.datasource.username=sa
+spring.datasource.password=
+spring.datasource.driver-class-name=org.h2.Driver
+
+// Permiti exibir instrução SQL no Console
+spring.jpa.show-sql = true
+spring.jpa.properties.hibernate.format_sql=true
+
+// Habilitar o modo de criação das entidades (CREATE, CREATE-DROP,UPDATE,NONE)
+spring.jpa.hibernate.ddl-auto=create
