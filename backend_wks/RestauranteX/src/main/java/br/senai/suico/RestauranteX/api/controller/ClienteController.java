@@ -39,7 +39,6 @@ public class ClienteController {
 		return servico.buscarPorId(id);
 	}
 
-
 	@PostMapping
 	public Cliente createCliente(@RequestBody Cliente cliente) {
 		return servico.salvar(cliente);
@@ -52,8 +51,7 @@ public class ClienteController {
 	
 	@PostMapping("/autenticar")
 	public Optional<ClienteDto> autenticar(@RequestBody Cliente cliente) {
-		return servico.autenticar(cliente);
-		
+		return servico.autenticar(cliente);		
 	}
 	
 	@PutMapping("/{id}")

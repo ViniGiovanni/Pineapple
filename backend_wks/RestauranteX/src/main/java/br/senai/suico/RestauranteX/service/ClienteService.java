@@ -6,13 +6,16 @@ import java.util.Optional;
 import br.senai.suico.RestauranteX.model.dto.ClienteDto;
 import br.senai.suico.RestauranteX.model.entity.Cliente;
 
-public interface ClienteService {
+public interface ClienteService {	
+	public void validarEmail(String email);	
+	void validarDadosObrigatorios(Cliente cliente);
 	Cliente salvar(Cliente cliente);
+	public Optional<Cliente>  buscarPorEmail(String email);		
+	public Optional<ClienteDto> autenticar(Cliente cliente);
+	
+	
 	Cliente atualizar(Cliente cliente);
 	void deletar(long id);
 	List<Cliente> buscar();
 	public Optional<Cliente>  buscarPorId(long id);
-	public Optional<Cliente>  buscarPorEmail(String email);	
-	void validar(Cliente cliente);
-	public Optional<ClienteDto> autenticar(Cliente cliente);
 }

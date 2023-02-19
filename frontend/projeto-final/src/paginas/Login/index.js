@@ -59,7 +59,7 @@ export default function Login(){
                 limparCaches();
                 var erro =err.toString();;
               
-                if (erro.includes('302') ||  erro.includes('404'))
+                if (erro.includes('400') ||  erro.includes('404'))
                    alert(Mensagens.UsuarioESenhaInvalida )   
                 else  
                    alert(Mensagens.ErroGenerico + err)
@@ -69,7 +69,7 @@ export default function Login(){
         }
         else{
             limparCaches();
-           alert(Mensagens.EmailESenhaObrigatorio)
+            alert(Mensagens.EmailESenhaObrigatorio)
         }
     }
     return(
