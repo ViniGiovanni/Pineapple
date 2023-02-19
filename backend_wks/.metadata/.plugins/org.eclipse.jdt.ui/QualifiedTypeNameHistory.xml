@@ -28,4 +28,6 @@
     <fullyQualifiedTypeName name="br.senai.suico.RestauranteX.model.repository.ClienteRepository"/>
     <fullyQualifiedTypeName name="br.senai.suico.RestauranteX.model.entity.Cliente"/>
     <fullyQualifiedTypeName name="br.senai.suico.RestauranteX.service.DBService"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Assertions"/>
 </qualifiedTypeNameHistroy>
