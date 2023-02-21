@@ -1,5 +1,6 @@
 import logo from '../../assets/logo.png'
-import Button from '../Dropdown'
+import ButtonCardapio from '../DropdownCardapio'
+import ButtonCadastro from '../DropdownCadastro'
 import ButtonUser from '../DropUser'
 import './header.css'
 
@@ -13,6 +14,9 @@ export default function Header(){
     var usuario =  JSON.parse(localStorage.getItem("usuario"));
   
     setUser(usuario.nome);
+    let  roles = usuario.roles
+    var liberarCadastro = roles.includes("ADMIN");
+
     return(
         <header>
             <div className='header-user'>
@@ -29,7 +33,10 @@ export default function Header(){
                         Fale Conosco
                     </li>
                     <li>
-                        <Button/>
+                       { liberarCadastro && <ButtonCadastro/> }
+                    </li>
+                    <li>
+                        <ButtonCardapio/>
                     </li>
                 </ul>
             </nav>

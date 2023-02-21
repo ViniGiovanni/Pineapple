@@ -23,12 +23,16 @@ export default function Cadastro(){
             var usuario={
                 nome:username,
                 email:email,
-                senha:senha
+                senha:senha,
+                roles:'USER'
             }
 
-          
+            api.defaults.headers.post['Access-Control-Allow-Origin'] = '*';
+           
+            
+
             api
-            .post("/api/Clientes",usuario)
+            .post("/api/Clientes/cadastrar",usuario)
             .then((response) =>
             {
                 if (response.data != null){

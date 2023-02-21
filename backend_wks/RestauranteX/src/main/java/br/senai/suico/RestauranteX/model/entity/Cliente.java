@@ -28,5 +28,8 @@ public class Cliente {
 	
 	@Column(name = "senha", nullable = false, length = 500)
 	private String senha;
+	
+	private String roles;
+	
 
 }

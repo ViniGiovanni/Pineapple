@@ -9,13 +9,14 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @EnableWebMvc
 @SpringBootApplication
 
-public class RestauranteXApplication implements WebMvcConfigurer {
+public class RestauranteXApplication implements WebMvcConfigurer
+{
 
 	public void addCorsMappings(CorsRegistry registry) {
-		// registry.addMapping("/**").allowedOrigins("*").allowedMethods("GET", "POST", "DELETE","OPTIONS", "PUT");
+		registry.addMapping("/**").allowedOrigins("*").allowedMethods("GET", "POST", "DELETE", "OPTIONS", "PUT");
 
-		registry.addMapping("/**").allowedOrigins("http://localhost:3000").allowedMethods("GET", "POST", "DELETE",
-				"OPTIONS", "PUT");
+		// registry.addMapping("/**").allowedOrigins("http://localhost:3000").allowedMethods("GET",
+		// "POST", "DELETE","OPTIONS", "PUT");
 
 	}
 

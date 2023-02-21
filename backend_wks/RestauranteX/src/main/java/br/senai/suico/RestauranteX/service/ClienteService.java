@@ -8,14 +8,14 @@ import br.senai.suico.RestauranteX.model.entity.Cliente;
 
 public interface ClienteService {	
 	public void validarEmail(String email);	
-	void validarDadosObrigatorios(Cliente cliente);
-	Cliente salvar(Cliente cliente);
+	public void validarDadosObrigatorios(Cliente cliente);
+	public Cliente salvar(Cliente cliente);
 	public Optional<Cliente>  buscarPorEmail(String email);		
 	public Optional<ClienteDto> autenticar(Cliente cliente);
 	
 	
-	Cliente atualizar(Cliente cliente);
-	void deletar(long id);
-	List<Cliente> buscar();
+	public Cliente atualizar(Cliente cliente);
+	public void deletar(long id);
+	public List<Cliente> buscar();
 	public Optional<Cliente>  buscarPorId(long id);
 }

@@ -4,7 +4,9 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.server.ResponseStatusException;
@@ -21,6 +23,9 @@ public class ClienteServiceImpl implements ClienteService {
 	
 	private ClienteRepository repository;
 
+	@Autowired
+	private PasswordEncoder passwordEncoder;
+	
 	public ClienteServiceImpl(ClienteRepository repository) {
 		super();
 		this.repository = repository;
@@ -56,6 +61,7 @@ public class ClienteServiceImpl implements ClienteService {
 		validarDadosObrigatorios(cliente);
 		validarEmail(cliente.getEmail());	
 		
+		//cliente.setSenha(passwordEncoder.encode(cliente.getSenha()));
 	    return repository.save(cliente);		
 	}
 
@@ -68,11 +74,14 @@ public class ClienteServiceImpl implements ClienteService {
 	public Optional<ClienteDto> autenticar(Cliente cliente) {
 		Optional<Cliente> result = repository.findByEmail(cliente.getEmail());
 		
+		//cliente.setSenha(passwordEncoder.encode(cliente.getSenha()));
+	    
 		if (result.isPresent()) 		{		
 			if (result.get().getSenha().equals(cliente.getSenha() )) {
 				ClienteDto cli = new ClienteDto();
 				cli.setNome(result.get().getNome());
 				cli.setEmail(result.get().getEmail());
+				cli.setRoles(result.get().getRoles());
 				cli.setToken("token123");
 				return Optional.of(cli);
 			}
@@ -82,8 +91,7 @@ public class ClienteServiceImpl implements ClienteService {
 		}
 		else {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND);
-		}
-		
+		}	
 	}
 
 	@Override

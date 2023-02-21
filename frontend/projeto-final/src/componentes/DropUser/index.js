@@ -2,7 +2,7 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import { Link } from 'react-router-dom';
 import {FiLogOut} from "react-icons/fi";
 
-import '../Dropdown/button.css'
+import '../DropdownCardapio/button.css'
 import { useContext } from 'react';
 import UserContext from '../../contexts/UserContext';
 import { useHistory} from 'react-router-dom'

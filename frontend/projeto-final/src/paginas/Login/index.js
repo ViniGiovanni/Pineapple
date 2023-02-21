@@ -28,6 +28,22 @@ export default function Login(){
           
             var userLogin= new UserLogin(email,senha)
 
+
+/*
+            const requestOptions = {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json','Access-Control-Allow-Origin':'*' },
+                body: JSON.stringify(userLogin)
+            };
+            fetch('http://localhost:8081/api/Clientes/autenticar', requestOptions)
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data);
+                    history.push('/home'); 
+                });
+*/
+           api.defaults.headers.post['Access-Control-Allow-Origin'] = '*';
+         
             api
             .post("/api/Clientes/autenticar",userLogin)
             .then((response) =>
@@ -36,7 +52,7 @@ export default function Login(){
                 {
                     console.log(response.data)
                    
-                     var usuario = new Usuario(response.data.id,response.data.nome,response.data.token,response.data.email)
+                     var usuario = new Usuario(response.data.id,response.data.nome,response.data.token,response.data.email,response.data.roles)
            
                      setUser(usuario.nome );
                       
@@ -47,6 +63,7 @@ export default function Login(){
 
                     //alert('user:'+user)
                     history.push('/home'); 
+                  
                 }
                 else 
                 {
@@ -58,7 +75,7 @@ export default function Login(){
             .catch((err) => {
                 limparCaches();
                 var erro =err.toString();;
-              
+              alert(erro)
                 if (erro.includes('400') ||  erro.includes('404'))
                    alert(Mensagens.UsuarioESenhaInvalida )   
                 else  
