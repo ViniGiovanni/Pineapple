@@ -19,11 +19,8 @@ export default function Header(){
 
     return(
         <header>
-            <div className='header-user'>
-            <ButtonUser nome={user}/>
-            <FiUser color='#ffc400' size={22}></FiUser>
-            </div>
             <img src={logo} alt="logo"/>
+            
             <nav>
                 <ul className='header-links-box'> 
                     <li className='header-links'>
@@ -40,6 +37,9 @@ export default function Header(){
                     </li>
                 </ul>
             </nav>
+            <div className='header-user'>
+            <ButtonUser/>
+            </div>
         </header>
     )
 }

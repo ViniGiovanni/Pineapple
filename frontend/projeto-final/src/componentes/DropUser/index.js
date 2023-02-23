@@ -1,6 +1,6 @@
 import Dropdown from 'react-bootstrap/Dropdown';
 import { Link } from 'react-router-dom';
-import {FiLogOut} from "react-icons/fi";
+import {FiLogOut, FiUser} from "react-icons/fi";
 
 import '../DropdownCardapio/button.css'
 import { useContext } from 'react';
@@ -24,7 +24,11 @@ function ButtonUser(prop) {
   return (
     <Dropdown>
       <Dropdown.Toggle id="dropdown-basic-button" title="Dropdown button" className='dropdown-btn'>
+        <div className='btn-profile'>
+        <FiUser color='#ffc400' size={22}></FiUser>
         {user}
+        </div>
+        
       </Dropdown.Toggle>
 
       <Dropdown.Menu className='dropdown-menu'>

@@ -40,3 +40,11 @@
     transform: scale(1.1);
     color: #fff200dd;
 }
+
+.btn-profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 20px;
+}

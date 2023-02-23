@@ -20,6 +20,7 @@ import br.senai.suico.RestauranteX.model.dto.ClienteDto;
 import br.senai.suico.RestauranteX.model.entity.Cliente;
 import br.senai.suico.RestauranteX.service.impl.ClienteServiceImpl;
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.models.media.MediaType;
@@ -31,6 +32,7 @@ import io.swagger.v3.oas.models.media.MediaType;
 public class ClienteController {
 	@Autowired
 	ClienteServiceImpl servico;
+	
 	@Operation(summary = "Find All Client")
 	@GetMapping
 	public List<Cliente> buscar()
@@ -62,8 +64,11 @@ public class ClienteController {
 			    @ApiResponse(responseCode = "404", description = "Login not found for support look for Yann")
 			  }
 			)
+
 	@PostMapping("/autenticar")
-	public Optional<ClienteDto> autenticar(@RequestBody Cliente cliente) {
+	public Optional<ClienteDto> autenticar(
+			//@Parameter(cli ={"email"="","senha":"123"}) 
+	     @RequestBody Cliente cliente) {
 		return servico.autenticar(cliente);		
 	}
 	
