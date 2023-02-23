@@ -19,6 +19,10 @@ import org.springframework.web.server.ResponseStatusException;
 import br.senai.suico.RestauranteX.model.dto.ClienteDto;
 import br.senai.suico.RestauranteX.model.entity.Cliente;
 import br.senai.suico.RestauranteX.service.impl.ClienteServiceImpl;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.media.Content;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.models.media.MediaType;
 
 //@CrossOrigin("*")
 //@CrossOrigin(origins = "http://localhost:3000", maxAge = 3600)
@@ -27,13 +31,14 @@ import br.senai.suico.RestauranteX.service.impl.ClienteServiceImpl;
 public class ClienteController {
 	@Autowired
 	ClienteServiceImpl servico;
-
+	@Operation(summary = "Find All Client")
 	@GetMapping
 	public List<Cliente> buscar()
 	{		
 		return  servico.buscar();
 	}
 
+	@Operation(summary = "Find Client by Id")
 	@GetMapping("/{id}")
 	public Optional<Cliente> buscaPorId(@PathVariable long id) {
 		return servico.buscarPorId(id);
@@ -44,11 +49,19 @@ public class ClienteController {
 		return servico.salvar(cliente);
 	}
 	
+
+	@Operation(summary = "Find Client by Email")
 	@PostMapping("/buscar")
 	public Optional<Cliente> findCliente(@RequestBody Cliente cliente) {
 		return servico.buscarPorEmail(cliente.getEmail());
 	}
 	
+	@Operation(
+			  summary = "Authentication for Bitte 2.0",
+			  responses = {
+			    @ApiResponse(responseCode = "404", description = "Login not found for support look for Yann")
+			  }
+			)
 	@PostMapping("/autenticar")
 	public Optional<ClienteDto> autenticar(@RequestBody Cliente cliente) {
 		return servico.autenticar(cliente);		

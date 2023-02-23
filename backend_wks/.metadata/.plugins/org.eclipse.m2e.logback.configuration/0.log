@@ -2837,3 +2837,137 @@ org.eclipse.core.runtime.CoreException: Could not read maven project
 2023-02-23 00:20:37,836 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
 2023-02-23 00:20:37,852 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
 2023-02-23 00:20:37,853 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-23 01:49:29,719 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-23 01:51:53,723 [Worker-8: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.senai.suico:RestauranteX:0.0.1-SNAPSHOT @ C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\pom.xml.
+2023-02-23 01:52:53,570 [Worker-8: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springdoc:springdoc-openapi-stater-webmvc-ui:jar:2.0.0 is missing, no dependency information available
+2023-02-23 01:52:53,825 [Worker-5: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.senai.suico:RestauranteX:0.0.1-SNAPSHOT @ C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\pom.xml.
+2023-02-23 01:52:53,984 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springdoc:springdoc-openapi-stater-webmvc-ui:jar:2.0.0 is missing, no dependency information available
+2023-02-23 01:52:54,443 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 01:52:54,444 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 01:52:54,447 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-23 01:52:55,527 [Worker-19: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springdoc:springdoc-openapi-stater-webmvc-ui:jar:2.0.0 is missing, no dependency information available
+2023-02-23 01:52:55,874 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi-stater-webmvc-ui/2.0.0/springdoc-openapi-stater-webmvc-ui-2.0.0-sources.jar
+2023-02-23 01:52:55,881 [Worker-19: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springdoc:springdoc-openapi-stater-webmvc-ui:2.0.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springdoc:springdoc-openapi-stater-webmvc-ui:jar:sources:2.0.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-02-23 01:54:36,622 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.senai.suico:RestauranteX:0.0.1-SNAPSHOT @ C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\pom.xml.
+2023-02-23 01:54:37,747 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 01:54:37,748 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 01:54:37,750 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-23 01:54:40,200 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-02-23 01:54:40,238 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 01:54:40,241 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-23 01:56:16,971 [Worker-17: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-02-23 01:56:17,263 [Worker-17: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.senai.suico:RestauranteX:0.0.1-SNAPSHOT @ C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\pom.xml.
+2023-02-23 01:56:17,744 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RestauranteX/src/main/java
+2023-02-23 01:56:17,746 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /RestauranteX/src/main/resources
+2023-02-23 01:56:17,747 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /RestauranteX/src/main/resources
+2023-02-23 01:56:17,748 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RestauranteX/src/test/java
+2023-02-23 01:56:18,094 [Worker-17: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2023-02-23 01:56:18,998 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-02-23 01:56:19,027 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 01:56:19,031 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-23 01:56:22,441 [Worker-22: Launching RestauranteXApplication] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.senai.suico:RestauranteX:0.0.1-SNAPSHOT @ C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\pom.xml.
+2023-02-23 01:56:23,271 [Worker-22: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 01:56:23,272 [Worker-22: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 01:56:23,274 [Worker-22: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-23 01:56:24,463 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-02-23 01:56:24,525 [Worker-17: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi-starter-webflux-ui/2.0.2/springdoc-openapi-starter-webflux-ui-2.0.2-sources.jar
+2023-02-23 01:56:24,529 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 01:56:24,533 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-23 01:56:24,673 [Worker-17: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi-starter-webflux-ui/2.0.2/springdoc-openapi-starter-webflux-ui-2.0.2-sources.jar
+2023-02-23 01:56:25,035 [Worker-17: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springdoc:springdoc-openapi-starter-webflux-ui:2.0.2
+2023-02-23 01:56:25,070 [Worker-17: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi-starter-webflux-api/2.0.2/springdoc-openapi-starter-webflux-api-2.0.2-sources.jar
+2023-02-23 01:56:25,277 [Worker-17: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi-starter-webflux-api/2.0.2/springdoc-openapi-starter-webflux-api-2.0.2-sources.jar
+2023-02-23 01:56:25,538 [Worker-17: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springdoc:springdoc-openapi-starter-webflux-api:2.0.2
+2023-02-23 01:56:25,911 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 01:56:25,911 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 01:56:25,915 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-23 01:59:03,291 [Worker-26: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.senai.suico:RestauranteX:0.0.1-SNAPSHOT @ C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\pom.xml.
+2023-02-23 01:59:04,105 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 01:59:04,106 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 01:59:04,109 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-23 01:59:05,372 [Worker-17: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi-starter-webmvc-ui/2.0.0/springdoc-openapi-starter-webmvc-ui-2.0.0-sources.jar
+2023-02-23 01:59:05,501 [Worker-17: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi-starter-webmvc-ui/2.0.0/springdoc-openapi-starter-webmvc-ui-2.0.0-sources.jar
+2023-02-23 01:59:05,698 [Worker-17: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.0
+2023-02-23 01:59:05,738 [Worker-17: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi-starter-webmvc-api/2.0.0/springdoc-openapi-starter-webmvc-api-2.0.0-sources.jar
+2023-02-23 01:59:05,914 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-02-23 01:59:05,937 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 01:59:05,939 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-23 01:59:05,954 [Worker-17: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi-starter-webmvc-api/2.0.0/springdoc-openapi-starter-webmvc-api-2.0.0-sources.jar
+2023-02-23 01:59:06,146 [Worker-17: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springdoc:springdoc-openapi-starter-webmvc-api:2.0.0
+2023-02-23 01:59:06,182 [Worker-17: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi-starter-common/2.0.0/springdoc-openapi-starter-common-2.0.0-sources.jar
+2023-02-23 01:59:06,236 [Worker-17: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi-starter-common/2.0.0/springdoc-openapi-starter-common-2.0.0-sources.jar
+2023-02-23 01:59:06,294 [Worker-17: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springdoc:springdoc-openapi-starter-common:2.0.0
+2023-02-23 01:59:07,039 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 01:59:07,039 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 01:59:07,041 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-23 02:04:22,635 [Worker-29: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.senai.suico:RestauranteX:0.0.1-SNAPSHOT @ C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\pom.xml.
+2023-02-23 02:04:23,122 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 02:04:23,122 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 02:04:23,123 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-23 02:04:24,943 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-02-23 02:04:24,964 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 02:04:24,966 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-23 02:04:40,643 [Worker-30: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-02-23 02:04:40,941 [Worker-30: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.senai.suico:RestauranteX:0.0.1-SNAPSHOT @ C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\pom.xml.
+2023-02-23 02:04:41,413 [Worker-30: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RestauranteX/src/main/java
+2023-02-23 02:04:41,414 [Worker-30: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /RestauranteX/src/main/resources
+2023-02-23 02:04:41,415 [Worker-30: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /RestauranteX/src/main/resources
+2023-02-23 02:04:41,416 [Worker-30: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RestauranteX/src/test/java
+2023-02-23 02:04:41,613 [Worker-30: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-02-23 02:04:42,219 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-02-23 02:04:42,240 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 02:04:42,243 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-23 02:04:59,335 [Worker-30: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-02-23 02:04:59,561 [Worker-30: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.senai.suico:RestauranteX:0.0.1-SNAPSHOT @ C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\pom.xml.
+2023-02-23 02:05:00,101 [Worker-30: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RestauranteX/src/main/java
+2023-02-23 02:05:00,102 [Worker-30: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /RestauranteX/src/main/resources
+2023-02-23 02:05:00,103 [Worker-30: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /RestauranteX/src/main/resources
+2023-02-23 02:05:00,103 [Worker-30: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RestauranteX/src/test/java
+2023-02-23 02:05:00,325 [Worker-30: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-02-23 02:05:00,976 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-02-23 02:05:00,996 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 02:05:01,000 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-23 02:05:47,977 [Worker-17: Launching RestauranteXApplication] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.senai.suico:RestauranteX:0.0.1-SNAPSHOT @ C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\pom.xml.
+2023-02-23 02:05:48,420 [Worker-17: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 02:05:48,421 [Worker-17: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 02:05:48,423 [Worker-17: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-23 02:05:49,175 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-02-23 02:05:49,208 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 02:05:49,211 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-23 02:22:48,812 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-02-23 02:22:48,831 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 02:22:48,833 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-23 02:24:56,109 [Worker-33: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.senai.suico:RestauranteX:0.0.1-SNAPSHOT @ C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\pom.xml.
+2023-02-23 02:24:56,745 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 02:24:56,745 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 02:24:56,748 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-23 02:24:58,747 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-02-23 02:24:58,773 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 02:24:58,776 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-23 02:26:14,972 [Worker-40: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-02-23 02:26:14,991 [Worker-40: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 02:26:14,994 [Worker-40: Launching RestauranteXApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-23 02:31:12,578 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-02-23 02:31:12,595 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 02:31:12,596 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
+2023-02-23 02:43:30,438 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources
+2023-02-23 02:43:30,461 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-23 02:43:30,464 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Projetos\senai\3DN\Projeto_Pineapple\backend_wks\RestauranteX\src\test\resources
